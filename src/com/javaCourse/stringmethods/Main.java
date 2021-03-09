@@ -12,7 +12,7 @@ public class Main {
 //        String result = name.toUpperCase();
 //        String result = name.trim();
 //        String result = name.replace('o', 'a');
-        System.out.println(result);
+//        System.out.println(result);
 
     }
 }
