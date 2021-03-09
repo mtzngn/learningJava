@@ -14,10 +14,19 @@ public class Main {
 //        myCar.brake();
 
 
-        Human human = new Human("taha", 28, 60);
-        System.out.println(human.name);
-        System.out.println(human.age);
-        System.out.println(human.weight);
-        human.eat();
+//        Human human = new Human("taha", 28, 60);
+//        System.out.println(human.name);
+//        System.out.println(human.age);
+//        System.out.println(human.weight);
+//        human.eat();
+
+        Pizza pizza = new Pizza("thin crust", "tomato", "mozerella");
+
+        System.out.println("Here are the ingredients for your pizza: ");
+        System.out.println(pizza.bread);
+        System.out.println(pizza.sauce);
+        System.out.println(pizza.cheese);
+        System.out.println(pizza.topping);
+
     }
 }
